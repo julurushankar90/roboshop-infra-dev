@@ -1,6 +1,6 @@
 #!/bin/bash
 
-component = $1
+component=$1
 dnf install ansible -y
 
 cd /home/ec2-user
